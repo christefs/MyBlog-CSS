@@ -67,13 +67,13 @@ nav .profile-link a {
     border-bottom: 1px solid black;
 }
 
-main {
+.home-main {
     display: grid;
     grid-template-columns: 800px;
     grid-template-rows: 400px;
     justify-content: center;
-    align-content: center;
-    height: 683px;
+    /*align-content: center;*/
+    height: 100%; /*683px;*/
 
     background-image: url("/assets/img/Cover.png");
     background-position: center;
@@ -91,7 +91,7 @@ main {
     font-size: 60px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 85px;
 
     color: white;
 }
@@ -103,5 +103,6 @@ main {
     left: calc(50% - 60px);
     background-color: #47cfac;
     padding: 10px;
+    border-radius: 5px;
     
 }
