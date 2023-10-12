@@ -24,7 +24,14 @@
 
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1000px) {
+
+    .profile-container {
+        grid-template-columns: 1fr;
+    }
+    .profile-info-container {
+        grid-column: 1;
+    }
     
     .projects-articles-container {
         grid-template-columns: 1fr 1fr;
@@ -34,9 +41,10 @@
         grid-column: 1;
         grid-row: 2;
     }
+    /*
     .profile-main-container .profile-container {
         display: block;
-    }
+    }*/
 }
 
 @media (max-width: 600px) {
