@@ -255,6 +255,14 @@ footer p {
 .blogpost-main-container .grid-container article h1 {
     font-size: 35px;
 }
+.blogpost-main-container .grid-container article a {
+    font-size: 20px;
+    color: #57578D;
+}
+.blogpost-main-container .grid-container article a:hover {
+    font-size: 23px;
+    color: #434375 ;
+}
 /*
 .main-profile {
     display: grid;
@@ -277,7 +285,7 @@ footer p {
     /*width: 90%;*/
     width: 320px;
     margin-right: 30px;
-    
+    border-radius: 10px;
     /*max-width: 270px;
     max-height: 160px;*/
      
@@ -323,4 +331,16 @@ footer p {
 }
 .projects-text-container p {
     font-size: 20px;
+}
+
+.contact-left p,
+.contact-right p {
+    color: #535354;
+    
+}
+.contact-right p {
+    cursor: pointer;
+}
+.contact-left :nth-child(3) {
+    line-height: 0%;
 }
