@@ -12,7 +12,9 @@
     }
     .blogs-posts-container .post-container {
         max-width: 45%;
+
     }
+   
 
     
 }
@@ -20,7 +22,9 @@
 @media (max-width: 500px) {
     .blogs-posts-container .post-container {
         max-width: 95%;
+
     }
+    
 
 }
 
@@ -60,4 +64,6 @@
         grid-column: 1;
         grid-row: 3;
     }
+
+    
 }
